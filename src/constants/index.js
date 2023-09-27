@@ -19,10 +19,20 @@ import {
   starbucks,
   tesla,
   shopify,
+  panw,
+  wal,
+  virtusa,
+  calcitex,
+  entreesphere,
   carrent,
   jobit,
   tripguide,
   threejs,
+  python,
+  nextjs,
+  mysql,
+  sequelize,
+  express
 } from "../assets";
 
 export const navLinks = [
@@ -42,15 +52,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Backend Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Competitive Coder",
     icon: backend,
   },
   {
@@ -60,6 +70,10 @@ const services = [
 ];
 
 const technologies = [
+  {
+    name: "python",
+    icon: python,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -81,6 +95,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -97,8 +115,16 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "mysql",
+    icon: mysql,
+  },
+  {
+    name: "sequelize",
+    icon: sequelize,
+  },
+  {
+    name: "express",
+    icon: express,
   },
   {
     name: "git",
@@ -108,63 +134,64 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Development Engineer Intern",
+    company_name: "Palo Alto Networks",
+    icon: panw,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer Intern",
+    company_name: "West Agile Labs",
+    icon: wal,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feb 2023 - June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created a full-stack application on Project Management using ReactJS, NodeJS, MySQL, Sequelize and APIs which helps GDOs, Project Managers and Admins keep track of the projects and team.",
+      "Worked on client application in the areas of validations, third party integration, elastic search and formik.",
+      "Implemented responsive design and ensuring cross-browser compatibility.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Associate Software Developer Intern",
+    company_name: "Virtusa",
+    icon: virtusa,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2023 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on Talend application to execute ETL and Data Integration tasks",
+      "Created a business model in the Talend Open Studio",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Web Developer Intern",
+    company_name: "Calcitex",
+    icon: calcitex,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "March 2021 - June 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed a Furniture website using HTML, CSS and Bootstrap based on client's requirements.",
+      "Created URL routing and live server using Flask framework.",
+      "Implemented responsive design and ensuring cross-browser compatibility.",
+    ],
+  },
+  {
+    title: "Business Development Trainee",
+    company_name: "Entreesphere",
+    icon: entreesphere,
+    iconBg: "#E6DEDD",
+    date: "May 2021 - May 2022",
+    points: [
+      "Led my team in the process of idea making and development of a startup",
+      "Designed various Business Model Canvases and Pitch Prelude development.",
+      "Worked on Team Building Assessment Matrix and Leadership Assessment Matrix.",
     ],
   },
 ];
@@ -198,9 +225,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "TranslateIt",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that helps reduce the language barrier in the text messages. The sender can select the language in which the text is sent, and the reciever can select the language in which the text is recieved.",
     tags: [
       {
         name: "react",
@@ -215,49 +242,62 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+   /* image: carrent,*/
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Crime Detection System",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Software which automates the crime and suspect recognition process. Reduced time and human efforts by 300 times by automating the process of image resizing, analysis and prediction.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mysql",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: jobit,
+   /* image: carrent,*/
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Random Generator",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A web-based platform that provides features like Password generator, Lottery pick, Coin flipper, Cards shuffler, Dice roller and many more. Users can interact with them fun animations.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+   /* image: carrent,*/
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "SecureCam",
+    description:
+      "Software which automates SMS alerts when a face is recognised. Reduced human efforts by 100 times by automating record logs of data. Implemented in Principal, Dean and HOD cabins at my institute.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+    ],
+   /* image: carrent,*/
     source_code_link: "https://github.com/",
   },
 ];

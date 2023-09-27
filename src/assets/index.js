@@ -20,11 +20,21 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import mysql from "./tech/mysql.png";
+import nextjs from "./tech/nextjs.svg";
+import sequelize from "./tech/sequelize.png";
+import express from "./tech/express.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import panw from "./company/panw.svg";
+import wal from "./company/wal.png";
+import virtusa from "./company/virtusa.jpeg";
+import calcitex from "./company/calcitex.jpeg";
+import entreesphere from "./company/entreesphere.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -52,10 +62,20 @@ export {
   tailwind,
   typescript,
   threejs,
+  python,
+  mysql,
+  nextjs,
+  sequelize,
+  express,
   meta,
   shopify,
   starbucks,
   tesla,
+  panw,
+  wal,
+  virtusa,
+  calcitex,
+  entreesphere,
   carrent,
   jobit,
   tripguide,
