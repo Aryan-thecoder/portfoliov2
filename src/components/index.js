@@ -8,6 +8,9 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import Publications from './Publications';
+import Achievements from './Achievements';
+import Links from './Links';
 
 
 export {
@@ -17,8 +20,11 @@ export {
   Tech,
   Experience,
   Works,
+  Publications,
+  Achievements,
   Feedbacks,
   Contact,
+  Links,
   CanvasLoader,
   EarthCanvas, 
   BallCanvas, 

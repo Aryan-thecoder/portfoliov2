@@ -223,9 +223,126 @@ const testimonials = [
   },
 ];
 
+const links = [
+  {
+    name: "Email",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    source_code_link:""
+  },
+  {
+    name: "LinkedIn",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    source_code_link:""
+  },
+  {
+    name: "GitHub",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    source_code_link:""
+  },
+  {
+    name: "YouTube",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    source_code_link:""
+  },
+  {
+    name: "CodeChef",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    source_code_link:""
+  },
+  {
+    name: "HackerRank",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    source_code_link:""
+  },
+];
+
 const projects = [
   {
-    name: "TranslateIt",
+    name: "Saas AI",
+    description:
+      "Web-based platform that helps reduce the language barrier in the text messages. The sender can select the language in which the text is sent, and the reciever can select the language in which the text is recieved.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+   /* image: carrent,*/
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "OpenAI Chatbot",
+    description:
+      "Web-based platform that helps reduce the language barrier in the text messages. The sender can select the language in which the text is sent, and the reciever can select the language in which the text is recieved.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+   /* image: carrent,*/
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "AI Summarizer",
+    description:
+      "Web-based platform that helps reduce the language barrier in the text messages. The sender can select the language in which the text is sent, and the reciever can select the language in which the text is recieved.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+   /* image: carrent,*/
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Price Tracker",
+    description:
+      "Web-based platform that helps reduce the language barrier in the text messages. The sender can select the language in which the text is sent, and the reciever can select the language in which the text is recieved.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+   /* image: carrent,*/
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Project Tracker",
     description:
       "Web-based platform that helps reduce the language barrier in the text messages. The sender can select the language in which the text is sent, and the reciever can select the language in which the text is recieved.",
     tags: [
@@ -302,4 +419,42 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const achievements =[
+  {
+    name:"1",
+    description:"Bagged Rs. 5 Lakh seed funding in the 1st year of engineering from the college as well as the startup incubator for being selected as one of the best ideas for a startup.",
+    image:"1"
+  },
+  {
+    name:"2",
+    description:"Achieved 5 Star Golden Badge in Python from Hackerrank.",
+    image:"2"
+  },
+  {
+    name:"3",
+    description:"3 Star coder in CodeChef.",
+    image:"3"
+  },
+  {
+    name:"4",
+    description:"Secured Global Rank 761 in Codechef May Challenge.",
+    image:"4"
+  },
+  {
+    name:"5",
+    description:"Won third prize in national level science competition organized by Central Board of Secondary Education.",
+    image:"5"
+  },
+  {
+    name:"6",
+    description:"Won inter-school cricket tournament as a captain in under-17 age group.",
+    image:"6"
+  },
+  {
+    name:"7",
+    description:"Won state-level badminton tournament in under-16 age group.",
+    image:"7"
+  },
+]
+
+export { services, technologies, experiences, testimonials, projects, achievements, links };

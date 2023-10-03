@@ -10,6 +10,10 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@nextui-org/card": "^2.0.21",
+    "@nextui-org/code": "^2.0.19",
+    "@nextui-org/image": "^2.0.21",
+    "@nextui-org/snippet": "^2.0.25",
     "@react-three/drei": "^9.83.3",
     "@react-three/fiber": "^8.14.1",
     "framer-motion": "^10.16.4",
